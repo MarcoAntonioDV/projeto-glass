@@ -1,0 +1,257 @@
+p{
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+body{
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+.conteudo{
+    width: 1000px;
+    margin: auto;
+}
+
+.interface{
+    width: 1250px;
+    margin: -20px auto 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+.interface .oculos-preto-pequeno{
+    position: absolute;
+    left: 1130px;
+    top: 70px;
+}
+
+.interface .specs-icone{
+    position: absolute;
+    left: 1100px;
+    top: 70px;
+}
+
+.interface .icone-fotos{
+    position: absolute;
+    left: 1150px;
+    top: 50px;
+}
+
+.interface .icone-multimidia{
+    position: absolute;
+    left: 1180px;
+    top: 40px;
+}
+
+.interface .icone-fale-conosco{
+    position: absolute;
+    left: 1200px;
+    top: 40px;
+}
+
+.interface .cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat 0 100px; 
+}
+
+.interface .cabecalho h1{
+    font-family: 'Source Scans Pro', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.interface .cabecalho h2{
+    font-family: 'Source Scans Pro', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.container .quadro{
+    width: 90%;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    transition: 0.3s ease-in-out;
+}
+
+.container .quadro:hover{
+    transform: scale(1.2);
+}
+
+.menu{
+    display: block;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 550px;    
+}
+
+.menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 40%;
+    transition: background-color 0.8s;
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+    background-color: #606060;
+}
+
+.menu h1{
+    display: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.corpo{
+    display: block;
+    width: 660px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 10px;
+}
+
+.corpo .lancamento{
+    background-color: #bebebe;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.corpo .tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corpo .tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
+.corpo .tabelaspec td.ce{
+    color:#ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.corpo .tabelaspec td.cd{
+    color: #000000;
+    
+}
+
+.corpo .tabelaspec caption{
+    color: #888888;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+
+.corpo .tabelaspec caption span{
+    display: block;
+    float: right;
+    color:black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+.corpo .como-funciona{
+    background-color: #bebebe;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.corpo .oque-da-pra-fazer{
+    background-color: #bebebe;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.filme1{
+    margin-left: 30px;
+    width: 500px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 4px black;
+    border: 8px solid white;
+    transition: 0.8 ease-in-out;
+}
+.filme1:hover{transform: scale(1.2);}
+
+
+.filme2{
+    width: 490px;
+    height: 280px;
+    margin-left: -130px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 4px black;
+    border: 8px solid white;
+    transition: 0.8 ease-in-out; 
+}
+.filme2:hover{transform: scale(1.2);}
+
+.artigo a{
+    color: #888888;
+}
+
+.lateral{
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+.lateral h3{
+    font-size: 20pt;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    margin-left: -150px;
+}
+
+.lateral p{
+    background-color: #acacac;
+    font-size: 15pt;
+    padding: 5px;
+    margin-left: -150px;
+    box-shadow: 1px 1px 4px black;
+    border: 8px solid white;
+    
+}
+.rodape{
+    position: relative;
+    width: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 630px;
+    gap: 20px;
+}
+
+.rodape .icone{
+    width: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape .icone:hover{
+    transform: scale(1.2);
+}

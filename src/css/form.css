@@ -1,0 +1,60 @@
+fieldset{
+    font-size: 25px;
+}
+
+.usuario{
+    width: 500px;
+    margin-left: 350px;
+    border: 4px solid rgb(228, 228, 228);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+.usuario img{
+    width: 150px;
+    float: right;
+}
+
+.endereco {
+    width: 500px;
+    margin-left: 350px;
+    border: 4px solid rgb(228, 228, 228);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+.endereco img{
+    width: 100px;
+    float: right;
+}
+
+.mensagem{
+    width: 500px;
+    margin-left: 350px;
+    border: 4px solid rgb(228, 228, 228);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+.mensagem img{
+    width: 100px;
+    float: right;
+} 
+
+.pedido{
+    width: 500px;
+    margin-left: 350px;
+    border: 4px solid rgb(228, 228, 228);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+.pedido img{
+    width: 100px;
+    float: right;
+} 
+
+.enviar{
+    margin-left: 760px;
+    border: 2px solid rgb(78, 78, 78);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    cursor: pointer;
+    border-radius: 10%;
+}    

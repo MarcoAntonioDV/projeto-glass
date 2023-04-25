@@ -1,0 +1,25 @@
+.tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url(../imagens/radio-tv.png) no-repeat;
+}
+
+.musica{
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 490px;
+    width: 300px;
+    filter: invert(1);
+    opacity: 0.3;
+}
+
+.filme{
+    display: block;
+    position: relative;
+    left: 88px;
+    top: 70px;
+    width: 440px;
+    border-radius: 5%;
+}

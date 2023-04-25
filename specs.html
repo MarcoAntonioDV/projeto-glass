@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/css/estilo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/specs.css"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/imagens/favicon.png">
+  <title>Google Glass</title>
+</head>
+
+<body>
+  <div class="interface">
+    <header class="cabecalho">
+      <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+      </hgroup>
+
+      <img class="specs-icone" src="./src/imagens/especificacoes.png" alt="specs" />
+
+      <nav class="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="specs.html">Especificações</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="multimidia.html">Multimídia</a></li>
+          <li><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <hgroup>
+        <h1>Glass > Especificações</h1>
+        <h2>Raio-X no Google Glass</h2>
+      </hgroup>
+      
+      <section class="corpo-full">
+        <p>
+          Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+        </p>
+       
+        <section class="conteudo">
+          <img src="./src/imagens/glass-esquema-marcado.jpg" alt="glass" usemap="#meumapa">
+          <map name="meumapa">
+              <area shape="rect" coords="175,206,271,257" href="./tela.html" target="janela">
+              <area shape="circle" coords="157,244,14" href="./camera.html" target="janela">
+              <area shape="circle" coords="76,52,12" href="./sensores.html" target="janela">
+              <area shape="poly" coords="26,144,88,220,85,255,24,172" href="./gadgets.html" target="janela">
+          </map>
+          <iframe src="./google-glass.html" name="janela" id="frame-spec">
+          </iframe>
+        </section>
+      </section>
+
+    <footer class="rodape">
+      <h4>MarcoAntonioDEV:</h4>
+      <a href="https://www.linkedin.com/in/marco-antonio-alonso-davanzo-5765821b3/" target="_blank">
+        <img class="icone" src="./src/imagens/linkedin-in.svg" alt="icone linkedin" />
+      </a>
+
+      <a href="https://github.com/MarcoAntonioDV" target="_blank">
+        <img class="icone" src="./src/imagens/github.svg" alt="icone github" />
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
